@@ -1,6 +1,44 @@
 ---
-title: "Final Project"
+title: "Final Project-Heart Disease"
 author: "Osheen Arya"
 output: html_notebook
 date: "Due Date:  12/13/2020"
 ---
+
+#Introduction 
+One of the courses I took this semester was Kinesiology 81: Wellness Theory and in this course I learned a lot about heart disease and its causes. This sparked my interest in the topic and for my final project for STAT 184 I will be exploring it further using R skills I learned in this course. 
+
+I will be using a examining two data sets for this project. The first source is a dataset from Kaggle (HeartDisease.csv) containing information about the presence of heart disease in patients. This data set is very informative as usefull by itself because it contains many attributes that can indicate risk factors and causes of heart disease. 
+
+The second data set (FraminghamStudy.csv) is from the Framingham Heart Disease Study which is a epidimeology study that began in 1948. The objectives of the Framingham Study are to study the incidence and prevalence of cardiovascular disease (CVD) and its risk factors, trends in CVD incidence and its risk factors over time, and familial patterns of CVD and risk factors. This data set is incredibly helpful as it includes information on many different risk factor for CVD. 
+
+#Set-Up
+##Clean Environment and Load Necessary Packages 
+```{r}
+# clean up the RStudio environment 
+rm(list = ls())
+
+# load packages
+library(mosaic)
+library(tidyverse)
+library(tidyr)
+library(rvest)
+library(lubridate)
+library(ggplot2)
+library(readr)
+```
+
+##Load Data
+
+###Heart Disease Data
+```{r}
+HeartDisease <- read_csv("HeartDisease.csv")
+View(HeartDisease)
+```
+
+```{r}
+#The First 5 Rows of the Data Set
+head(HeartDisease, 5)
+```
+
+Each case in this data set has information on each patient. The last column "target" indicates the presence of heart disease in the patient. It is integer valued 0 = no disease and 1 = disease.
