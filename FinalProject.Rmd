@@ -71,4 +71,21 @@ View(FraminghamStudy)
 #The First 5 Rows of the Data Set
 head(FraminghamStudy, 5)
 ```
-Each case 
+Each case shows data on each person observed in the study and gives additional information such as BMI, glucose and the data about their smoking habits.
+
+####Dimensions, number of rows and columns in the data set. 
+```{r}
+dim(FraminghamStudy)
+nrow(FraminghamStudy)
+ncol(FraminghamStudy)
+```
+
+####Understanding the datatype of the data set
+```{r}
+str(FraminghamStudy)
+```
+
+####Summary of the Data Set 
+```{r}
+summary(FraminghamStudy)
+```
