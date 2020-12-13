@@ -289,6 +289,8 @@ Heart.synthesized <- Heart %>% mutate(chol = LevelChol(chol)) %>%
 ggplot(data=Heart.synthesized,aes(x=chol,y=count ))+geom_bar(stat='identity',position='stack', width=.9)+ facet_wrap(~age,ncol=3)+ theme(axis.text.x = element_text(angle = 45, hjust=1))
 ```
 Using both the data sets we look at was age group is likely to have higher cholestrol. In both the plots it is evident that people age 60 or above and significantly more likely to have a higher cholestrol. 
+
 #Conclusion and Insight on Guiding Question
+
 Looking at the data we were able to say that there is more number of males  suffering from heart diseases than female. We saw that males have higher counts of risk factors that lead to CVD. We were not able to get conclusive evidence on on our subquestion about the effects of high cholestrol. However, we found that poeple age 60 and above are at risk of having high cholestrol. In conclusion, Males who are of age 60 or above are at a greater risk of having high cholestrol which may lead to atherosclerosis. It is evident from our research that they are more likely to have a cardiovascular disease. 
 
