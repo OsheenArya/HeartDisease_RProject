@@ -27,6 +27,8 @@ library(lubridate)
 library(ggplot2)
 library(readr)
 ```
+##Guiding Question 
+**Do more males or females have heart disease and what other factors lead to heart disease? **
 
 ##Load Data
 
@@ -42,3 +44,31 @@ head(HeartDisease, 5)
 ```
 
 Each case in this data set has information on each patient. The last column "target" indicates the presence of heart disease in the patient. It is integer valued 0 = no disease and 1 = disease.
+
+####Dimensions, number of rows and columns in the data set. 
+```{r}
+dim(HeartDisease)
+nrow(HeartDisease)
+ncol(HeartDisease)
+```
+
+####Understanding the datatype of the data set
+```{r}
+str(HeartDisease)
+```
+
+####Summary of the Data Set 
+```{r}
+summary(HeartDisease)
+```
+
+###Framingham Study Data 
+```{r}
+FraminghamStudy <- read_csv("FraminghamStudy.csv")
+View(FraminghamStudy)
+```
+```{r}
+#The First 5 Rows of the Data Set
+head(FraminghamStudy, 5)
+```
+Each case 
