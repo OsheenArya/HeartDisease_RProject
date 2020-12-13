@@ -1,4 +1,4 @@
-Files for My Final Project
+Files for My Final Project 
 
 [Final Project R Notebook](https://github.com/OsheenArya/STAT184FinalProject/blob/main/FinalProject.nb.html)
 
@@ -7,3 +7,5 @@ Files for My Final Project
 [First Data Set Heart Disease](https://github.com/OsheenArya/STAT184FinalProject/blob/main/HeartDisease.csv)
 
 [Second Data Set Framingham Study](https://github.com/OsheenArya/STAT184FinalProject/blob/main/FraminghamStudy.csv)
+
+Osheen Arya 
