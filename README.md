@@ -1,6 +1,6 @@
 Files for My Final Project 
 
-[Final Project R Notebook](https://github.com/OsheenArya/STAT184FinalProject/blob/main/FinalProject.nb.html)
+[Final Project R Notebook](FinalProject.nb.html)
 
 [Final Check Sheet R Notebook](https://github.com/OsheenArya/STAT184FinalProject/blob/main/Check%20Sheet.nb.html)
 
