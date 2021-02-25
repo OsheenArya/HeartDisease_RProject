@@ -1,4 +1,4 @@
-##Heart Disease Project 
+**Heart Disease Project**
 
 Project created for Introduction to R course
 
@@ -6,7 +6,7 @@ Project Guiding Question: Do more males or females have heart disease and does h
 
 Project Files and Data Sets used Linked Below
 
-[Project R Notebook](HeartDisease-RProject.html)
+**[Project R Notebook](HeartDisease-RProject.html)**
 
 [Final Project R Notebook File](FinalProject.nb.html)
 
