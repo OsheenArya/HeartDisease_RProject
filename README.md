@@ -5,8 +5,9 @@ Project created for Introduction to R course
 Project Guiding Question: Do more males or females have heart disease and does high cholestrol lead to heart disease?
 
 Project Files and Data Sets used Linked Below
+https://osheenarya.github.io/HeartDisease_RProject/HeartDisease-RProject.html
 
-**[Project R Notebook](HeartDisease-RProject.html)**
+[Project R Notebook](HeartDisease-RProject.html)
 
 [Final Project R Notebook File](FinalProject.nb.html)
 
