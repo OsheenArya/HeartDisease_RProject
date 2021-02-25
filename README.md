@@ -1,8 +1,8 @@
 Heart Disease Project 
+
 Project created for Introduction to R course
 
-Project Guiding Question 
-Do more males or females have heart disease and does high cholestrol lead to heart disease?
+Project Guiding Question: Do more males or females have heart disease and does high cholestrol lead to heart disease?
 
 Project Files and Data Sets used Linked Below
 
